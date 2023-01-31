@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.alipay.sofa.jraft.core.ReplicatorGroupTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.422 sec

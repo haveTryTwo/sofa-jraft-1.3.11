@@ -1,0 +1,17 @@
+io/grpc/netty/shaded/io/grpc/netty/NettyConnectionHelper.class
+com/alipay/sofa/jraft/rpc/impl/GrpcResponseFactory.class
+com/alipay/sofa/jraft/rpc/impl/ManagedChannelHelper.class
+com/alipay/sofa/jraft/rpc/impl/GrpcRaftRpcFactory.class
+io/grpc/netty/shaded/io/grpc/netty/NettyConnection.class
+com/alipay/sofa/jraft/rpc/impl/GrpcServer$1.class
+io/grpc/internal/ServerStreamHelper.class
+com/alipay/sofa/jraft/rpc/impl/MarshallerHelper.class
+com/alipay/sofa/jraft/rpc/impl/MarshallerRegistry.class
+com/alipay/sofa/jraft/rpc/impl/GrpcClient$2.class
+com/alipay/sofa/jraft/rpc/impl/GrpcServer.class
+com/alipay/sofa/jraft/rpc/impl/GrpcRaftRpcFactory$1.class
+com/alipay/sofa/jraft/rpc/impl/ConnectionInterceptor.class
+com/alipay/sofa/jraft/rpc/impl/RemoteAddressInterceptor.class
+com/alipay/sofa/jraft/rpc/impl/GrpcServerHelper.class
+com/alipay/sofa/jraft/rpc/impl/GrpcClient$1.class
+com/alipay/sofa/jraft/rpc/impl/GrpcClient.class

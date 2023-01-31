@@ -1,0 +1,2 @@
+com/alipay/sofa/jraft/storage/impl/BDBLogStorage.class
+com/alipay/sofa/jraft/core/BDBLogStorageJRaftServiceFactory.class

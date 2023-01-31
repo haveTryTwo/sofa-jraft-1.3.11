@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.alipay.sofa.jraft.storage.impl.RocksDBSegmentLogStorageTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.775 sec

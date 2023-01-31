@@ -1,0 +1,4 @@
+com/alipay/sofa/jraft/storage/impl/BDBLogStorageTest.class
+com/alipay/sofa/jraft/test/TestUtils.class
+com/alipay/sofa/jraft/storage/BaseStorageTest.class
+com/alipay/sofa/jraft/storage/impl/BaseLogStorageTest.class

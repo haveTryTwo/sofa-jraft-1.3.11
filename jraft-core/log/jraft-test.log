@@ -1,0 +1,895 @@
+2022-11-18 16:26:14.110 [main] ERROR ClosureQueueImpl:127 - Invalid endIndex=10, firstIndex=5, closureQueueSize=5
+2022-11-18 16:26:14.111 [main] ERROR ClosureQueueImpl:127 - Invalid endIndex=20, firstIndex=16, closureQueueSize=4
+2022-11-18 16:27:07.086 [main] ERROR SegmentFile:685 - Corrupted data in segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3448364666443041/SegmentFileTest at pos=62,  expectDataLength=20, but remaining is 0, will truncate it.
+2022-11-18 16:27:07.096 [main] ERROR SegmentFile:645 - Corrupted magic bytes in segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3448364984889000/SegmentFileTest at pos=57, will truncate it.
+2022-11-18 16:27:27.646 [main] ERROR ConfigurationEntry:107 - Invalid conf entry ConfigurationEntry [id=LogId [index=0, term=0], conf=localhost:8081,localhost:8082,localhost:8083,localhost:8084/learner, oldConf=localhost:8081,localhost:8082,localhost:8084], peers and learners have intersection: [localhost:8084].
+2022-11-19 02:36:57.846 [main] ERROR ClosureQueueImpl:127 - Invalid endIndex=10, firstIndex=5, closureQueueSize=5
+2022-11-19 02:36:57.847 [main] ERROR ClosureQueueImpl:127 - Invalid endIndex=20, firstIndex=16, closureQueueSize=4
+2022-11-19 02:37:43.049 [main] ERROR SegmentFile:685 - Corrupted data in segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3476492013338958/SegmentFileTest at pos=62,  expectDataLength=20, but remaining is 0, will truncate it.
+2022-11-19 02:37:43.058 [main] ERROR SegmentFile:645 - Corrupted magic bytes in segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3476492281044666/SegmentFileTest at pos=57, will truncate it.
+2022-11-19 02:37:59.879 [main] ERROR ConfigurationEntry:107 - Invalid conf entry ConfigurationEntry [id=LogId [index=0, term=0], conf=localhost:8081,localhost:8082,localhost:8083,localhost:8084/learner, oldConf=localhost:8081,localhost:8082,localhost:8084], peers and learners have intersection: [localhost:8084].
+2022-11-19 02:39:14.805 [main] ERROR ClosureQueueImpl:127 - Invalid endIndex=10, firstIndex=5, closureQueueSize=5
+2022-11-19 02:39:14.807 [main] ERROR ClosureQueueImpl:127 - Invalid endIndex=20, firstIndex=16, closureQueueSize=4
+2022-11-19 02:40:01.635 [main] ERROR SegmentFile:685 - Corrupted data in segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3476630562574916/SegmentFileTest at pos=62,  expectDataLength=20, but remaining is 0, will truncate it.
+2022-11-19 02:40:01.643 [main] ERROR SegmentFile:645 - Corrupted magic bytes in segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3476630866242916/SegmentFileTest at pos=57, will truncate it.
+2022-11-19 02:40:19.099 [main] ERROR ConfigurationEntry:107 - Invalid conf entry ConfigurationEntry [id=LogId [index=0, term=0], conf=localhost:8081,localhost:8082,localhost:8083,localhost:8084/learner, oldConf=localhost:8081,localhost:8082,localhost:8084], peers and learners have intersection: [localhost:8084].
+2022-11-19 03:14:46.444 [main] ERROR ClosureQueueImpl:127 - Invalid endIndex=10, firstIndex=5, closureQueueSize=5
+2022-11-19 03:14:46.445 [main] ERROR ClosureQueueImpl:127 - Invalid endIndex=20, firstIndex=16, closureQueueSize=4
+2022-11-19 03:15:31.960 [main] ERROR SegmentFile:685 - Corrupted data in segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3478760911596750/SegmentFileTest at pos=62,  expectDataLength=20, but remaining is 0, will truncate it.
+2022-11-19 03:15:31.970 [main] ERROR SegmentFile:645 - Corrupted magic bytes in segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3478761177433375/SegmentFileTest at pos=57, will truncate it.
+2022-11-19 03:15:48.801 [main] ERROR ConfigurationEntry:107 - Invalid conf entry ConfigurationEntry [id=LogId [index=0, term=0], conf=localhost:8081,localhost:8082,localhost:8083,localhost:8084/learner, oldConf=localhost:8081,localhost:8082,localhost:8084], peers and learners have intersection: [localhost:8084].
+2022-11-19 03:22:45.796 [main] ERROR ClosureQueueImpl:127 - Invalid endIndex=10, firstIndex=5, closureQueueSize=5
+2022-11-19 03:22:45.799 [main] ERROR ClosureQueueImpl:127 - Invalid endIndex=20, firstIndex=16, closureQueueSize=4
+2022-11-19 03:22:53.418 [main] ERROR Replicator:890 - Fail to init sending channel to localhost:8082.
+2022-11-19 03:22:53.420 [main] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=localhost:8082, replicatorType=Follower.
+2022-11-19 03:22:53.464 [main] ERROR Replicator:890 - Fail to init sending channel to localhost:8082.
+2022-11-19 03:22:53.464 [main] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=localhost:8082, replicatorType=Learner.
+2022-11-19 03:22:55.464 [JRaft-FSMCaller-Disruptor-0] ERROR FSMCallerImpl:597 - Empty conf entry for lastAppliedIndex=10
+2022-11-19 03:22:55.484 [JRaft-FSMCaller-Disruptor-0] ERROR FSMCallerImpl:583 - Iterator is still valid, did you return before iterator reached the end?
+2022-11-19 03:22:55.526 [JRaft-FSMCaller-Disruptor-0] ERROR FSMCallerImpl:583 - Iterator is still valid, did you return before iterator reached the end?
+2022-11-19 03:22:57.145 [main] ERROR BallotBox:206 - Fail to appendingTask, pendingIndex=0.
+2022-11-19 03:22:57.151 [main] ERROR BallotBox:206 - Fail to appendingTask, pendingIndex=0.
+2022-11-19 03:23:08.473 [JRaft-RPC-Processor-1] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:23:08.474 [JRaft-RPC-Processor-1] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5003.
+2022-11-19 03:23:08.474 [JRaft-RPC-Processor-1] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:23:08.475 [JRaft-RPC-Processor-1] ERROR NodeImpl:1237 - Fail to add a replicator, peer=192.168.68.67:5003.
+2022-11-19 03:23:08.601 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:23:08.612 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5003 to get leader for group CliServiceTest.
+2022-11-19 03:23:08.715 [JRaft-StepDownTimer-<CliServiceTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:23:08.829 [Bolt-default-executor-6-thread-2] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:23:09.044 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:23:09.045 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5003 to get leader for group CliServiceTest.
+2022-11-19 03:23:09.051 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 03:23:09.051 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5004 to get leader for group CliServiceTest.
+2022-11-19 03:23:09.056 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5005.
+2022-11-19 03:23:09.057 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5005 to get leader for group CliServiceTest.
+2022-11-19 03:23:15.135 [Bolt-default-executor-6-thread-20] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.ConnectionClosedException: Connection closed! the address is 192.168.68.67:5003.
+2022-11-19 03:23:19.624 [JRaft-RPC-Processor-1] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:23:19.625 [JRaft-RPC-Processor-1] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5003.
+2022-11-19 03:23:19.625 [JRaft-RPC-Processor-1] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:23:19.625 [JRaft-RPC-Processor-1] ERROR NodeImpl:1237 - Fail to add a replicator, peer=192.168.68.67:5003.
+2022-11-19 03:23:19.861 [JRaft-StepDownTimer-<CliServiceTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:23:20.016 [JRaft-StepDownTimer-<CliServiceTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:23:20.171 [JRaft-StepDownTimer-<CliServiceTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:23:20.326 [JRaft-StepDownTimer-<CliServiceTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:23:20.489 [JRaft-StepDownTimer-<CliServiceTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:23:20.644 [JRaft-StepDownTimer-<CliServiceTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:23:20.780 [Bolt-default-executor-6-thread-9] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:23:20.977 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 03:23:20.978 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5004 to get leader for group CliServiceTest.
+2022-11-19 03:23:20.979 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5005.
+2022-11-19 03:23:20.980 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5005 to get leader for group CliServiceTest.
+2022-11-19 03:23:44.014 [JRaft-RPC-Processor-10] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:23:44.021 [JRaft-RPC-Processor-10] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5003.
+2022-11-19 03:23:44.024 [JRaft-RPC-Processor-10] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:23:44.041 [JRaft-RPC-Processor-10] ERROR NodeImpl:1237 - Fail to add a replicator, peer=192.168.68.67:5003.
+2022-11-19 03:23:44.051 [JRaft-Closure-Executor-9] ERROR NodeImpl:2328 - Fail to run ConfigurationChangeDone, status: Status[EPERM<1008>: Leader stepped down].
+2022-11-19 03:23:44.076 [Bolt-default-executor-6-thread-15] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:23:55.386 [JRaft-RPC-Processor-2] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5006, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5006.
+2022-11-19 03:23:55.400 [JRaft-RPC-Processor-2] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5006.
+2022-11-19 03:23:55.401 [JRaft-RPC-Processor-2] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5006, replicatorType=Learner.
+2022-11-19 03:23:55.401 [JRaft-RPC-Processor-2] ERROR NodeImpl:1245 - Fail to add a learner replicator, peer=192.168.68.67:5006.
+2022-11-19 03:23:55.555 [JRaft-StepDownTimer-<unittest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5006, replicatorType=Learner.
+2022-11-19 03:23:58.055 [JRaft-Rpc-Closure-Executor-8] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:23:58.072 [JRaft-Rpc-Closure-Executor-8] ERROR Replicator:625 - Fail to check install snapshot connection to peer=192.168.68.67:5003, give up to send install snapshot request.
+2022-11-19 03:23:58.144 [JRaft-Rpc-Closure-Executor-9] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:23:58.145 [JRaft-Rpc-Closure-Executor-9] ERROR Replicator:625 - Fail to check install snapshot connection to peer=192.168.68.67:5003, give up to send install snapshot request.
+2022-11-19 03:24:02.523 [JRaft-FSMCaller-Disruptor-0] ERROR StateMachineAdapter:72 - Encountered an error=Status[ESTATEMACHINE<10002>: StateMachine meet critical error when applying one or more tasks since index=6, Status[UNKNOWN<-1>: testRollbackStateMachineWithReadIndex_Issue317]] on StateMachine com.alipay.sofa.jraft.core.NodeTest$1, it's highly recommended to implement this method as raft stops working since some error occurs, you should figure out the cause and repair or remove this node.
+com.alipay.sofa.jraft.error.RaftException: null
+	at com.alipay.sofa.jraft.core.IteratorImpl.getOrCreateError(IteratorImpl.java:182) ~[classes/:?]
+	at com.alipay.sofa.jraft.core.IteratorImpl.setErrorAndRollback(IteratorImpl.java:173) ~[classes/:?]
+	at com.alipay.sofa.jraft.core.IteratorWrapper.setErrorAndRollback(IteratorWrapper.java:83) ~[classes/:?]
+	at com.alipay.sofa.jraft.core.NodeTest$1.onApply(NodeTest.java:286) ~[test-classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.doApplyTasks(FSMCallerImpl.java:577) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.doCommitted(FSMCallerImpl.java:541) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.runApplyTask(FSMCallerImpl.java:449) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.access$100(FSMCallerImpl.java:72) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl$ApplyTaskHandler.onEvent(FSMCallerImpl.java:149) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl$ApplyTaskHandler.onEvent(FSMCallerImpl.java:141) [classes/:?]
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:137) [disruptor-3.3.7.jar:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 03:24:42.092 [JRaft-FSMCaller-Disruptor-0] ERROR StateMachineAdapter:72 - Encountered an error=Status[ESTATEMACHINE<10002>: StateMachine onSnapshotLoad failed] on StateMachine com.alipay.sofa.jraft.core.NodeTest$MockFSM1, it's highly recommended to implement this method as raft stops working since some error occurs, you should figure out the cause and repair or remove this node.
+com.alipay.sofa.jraft.error.RaftException: StateMachine onSnapshotLoad failed
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.doSnapshotLoad(FSMCallerImpl.java:692) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.runApplyTask(FSMCallerImpl.java:406) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.access$100(FSMCallerImpl.java:72) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl$ApplyTaskHandler.onEvent(FSMCallerImpl.java:149) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl$ApplyTaskHandler.onEvent(FSMCallerImpl.java:141) [classes/:?]
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:137) [disruptor-3.3.7.jar:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 03:24:42.092 [main] ERROR SnapshotExecutorImpl:278 - Fail to load snapshot from /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3479310060078542/snapshot, FirstSnapshotLoadDone status is Status[UNKNOWN<-1>: StateMachine onSnapshotLoad failed].
+2022-11-19 03:24:42.103 [main] ERROR NodeImpl:1019 - Node <unittest/192.168.68.67:5003> initSnapshotStorage failed.
+2022-11-19 03:24:47.614 [Bolt-default-executor-6-thread-12] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:24:52.611 [Bolt-default-executor-6-thread-19] ERROR RpcRequestProcessor:58 - handleRequest group_id: "unittest"
+server_id: "192.168.68.67:5003"
+peer_id: "192.168.68.67:5005"
+term: 3
+last_log_term: 2
+last_log_index: 26
+pre_vote: false
+ failed
+java.lang.IllegalStateException: LocalRaftMetaStorage not initialized
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.checkState(LocalRaftMetaStorage.java:153) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.setVotedFor(LocalRaftMetaStorage.java:172) ~[classes/:?]
+	at com.alipay.sofa.jraft.core.NodeImpl.handleRequestVoteRequest(NodeImpl.java:1801) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.RequestVoteRequestProcessor.processRequest0(RequestVoteRequestProcessor.java:56) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.RequestVoteRequestProcessor.processRequest0(RequestVoteRequestProcessor.java:34) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.NodeRequestProcessor.processRequest(NodeRequestProcessor.java:60) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53) [classes/:?]
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35) [classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.BoltRpcServer$2.handleRequest(BoltRpcServer.java:124) [classes/:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:235) [bolt-1.6.4.jar:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:146) [bolt-1.6.4.jar:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:393) [bolt-1.6.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 03:25:01.070 [Bolt-default-executor-6-thread-16] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5003.
+2022-11-19 03:25:01.345 [JRaft-VoteTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5006>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5003.
+2022-11-19 03:25:01.360 [JRaft-VoteTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5006>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5004.
+2022-11-19 03:25:01.382 [JRaft-RPC-Processor-11] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5003.
+2022-11-19 03:25:01.424 [JRaft-RPC-Processor-11] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5004.
+2022-11-19 03:25:01.917 [JRaft-VoteTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5006>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5003.
+2022-11-19 03:25:01.917 [Bolt-default-executor-6-thread-14] ERROR RpcRequestProcessor:58 - handleRequest group_id: "testChangePeersChaosWithoutSnapshot"
+server_id: "127.0.0.1:5006"
+peer_id: "127.0.0.1:5005"
+term: 3
+last_log_term: 1
+last_log_index: 8033
+pre_vote: false
+ failed
+java.lang.IllegalStateException: LocalRaftMetaStorage not initialized
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.checkState(LocalRaftMetaStorage.java:153) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.setVotedFor(LocalRaftMetaStorage.java:172) ~[classes/:?]
+	at com.alipay.sofa.jraft.core.NodeImpl.handleRequestVoteRequest(NodeImpl.java:1801) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.RequestVoteRequestProcessor.processRequest0(RequestVoteRequestProcessor.java:56) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.RequestVoteRequestProcessor.processRequest0(RequestVoteRequestProcessor.java:34) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.NodeRequestProcessor.processRequest(NodeRequestProcessor.java:60) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53) [classes/:?]
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35) [classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.BoltRpcServer$2.handleRequest(BoltRpcServer.java:124) [classes/:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:235) [bolt-1.6.4.jar:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:146) [bolt-1.6.4.jar:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:393) [bolt-1.6.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 03:25:01.934 [JRaft-VoteTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5006>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5004.
+2022-11-19 03:25:01.958 [JRaft-VoteTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5006>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5005.
+2022-11-19 03:25:01.976 [JRaft-ElectionTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5009>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5003.
+2022-11-19 03:25:01.981 [JRaft-ElectionTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5009>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5004.
+2022-11-19 03:25:02.023 [JRaft-ElectionTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5009>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5005.
+2022-11-19 03:25:02.055 [JRaft-RPC-Processor-4] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5006, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5006.
+2022-11-19 03:25:02.059 [JRaft-RPC-Processor-4] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5003.
+2022-11-19 03:25:02.059 [JRaft-ElectionTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5012>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5006, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5006.
+2022-11-19 03:25:02.060 [JRaft-RPC-Processor-4] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5004.
+2022-11-19 03:25:02.068 [JRaft-RPC-Processor-4] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5005.
+2022-11-19 03:25:02.100 [JRaft-ElectionTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5012>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5003.
+2022-11-19 03:25:02.117 [JRaft-ElectionTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5012>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5004.
+2022-11-19 03:25:02.136 [JRaft-ElectionTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5012>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5005.
+2022-11-19 03:25:02.345 [Bolt-default-executor-6-thread-13] ERROR RpcRequestProcessor:58 - handleRequest group_id: "testChangePeersChaosWithoutSnapshot"
+server_id: "127.0.0.1:5009"
+peer_id: "127.0.0.1:5007"
+term: 4
+last_log_term: 1
+last_log_index: 8033
+pre_vote: false
+ failed
+java.lang.IllegalStateException: LocalRaftMetaStorage not initialized
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.checkState(LocalRaftMetaStorage.java:153) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.setVotedFor(LocalRaftMetaStorage.java:172) ~[classes/:?]
+	at com.alipay.sofa.jraft.core.NodeImpl.handleRequestVoteRequest(NodeImpl.java:1801) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.RequestVoteRequestProcessor.processRequest0(RequestVoteRequestProcessor.java:56) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.RequestVoteRequestProcessor.processRequest0(RequestVoteRequestProcessor.java:34) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.NodeRequestProcessor.processRequest(NodeRequestProcessor.java:60) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53) [classes/:?]
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35) [classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.BoltRpcServer$2.handleRequest(BoltRpcServer.java:124) [classes/:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:235) [bolt-1.6.4.jar:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:146) [bolt-1.6.4.jar:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:393) [bolt-1.6.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 03:25:02.653 [JRaft-ElectionTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5012>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5006, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5006.
+2022-11-19 03:25:02.663 [JRaft-ElectionTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5012>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5007, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5007.
+2022-11-19 03:25:02.665 [JRaft-ElectionTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5012>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5008, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5008.
+2022-11-19 03:25:02.666 [JRaft-ElectionTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5012>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5009, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5009.
+2022-11-19 03:25:02.689 [JRaft-ElectionTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5012>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5010, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5010.
+2022-11-19 03:25:02.693 [JRaft-ElectionTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5012>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5003.
+2022-11-19 03:25:02.708 [JRaft-ElectionTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5012>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5004.
+2022-11-19 03:25:02.709 [JRaft-ElectionTimer-<testChangePeersChaosWithoutSnapshot/127.0.0.1:5012>0] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5005.
+2022-11-19 03:29:27.161 [main] ERROR LocalRaftMetaStorage:124 - Fail to save raft meta
+java.io.FileNotFoundException: /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3479596187595792/raft_meta.tmp (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:299) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:238) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:188) ~[?:?]
+	at com.alipay.sofa.jraft.storage.io.ProtoBufFile.save(ProtoBufFile.java:103) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.save(LocalRaftMetaStorage.java:118) [classes/:?]
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.setVotedFor(LocalRaftMetaStorage.java:174) [classes/:?]
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorageTest.testSaveFail(LocalRaftMetaStorageTest.java:98) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.1.jar:4.13.1]
+	at org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.run(JUnit45AndHigherRunnerImpl.java:37) [mockito-all-1.9.5.jar:?]
+	at org.mockito.runners.MockitoJUnitRunner.run(MockitoJUnitRunner.java:62) [mockito-all-1.9.5.jar:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) [surefire-junit4-2.12.4.jar:2.12.4]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) [surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) [surefire-booter-2.12.4.jar:2.12.4]
+2022-11-19 03:29:35.104 [SegmentAllocator] ERROR SegmentFile:502 - Fail to init segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3479602361763167/segments/0000000000000000003.s.
+java.nio.channels.ClosedByInterruptException: null
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:199) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.map(FileChannelImpl.java:1055) ~[?:?]
+	at com.alipay.sofa.jraft.storage.log.SegmentFile.loadNewFile(SegmentFile.java:487) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.SegmentFile.init(SegmentFile.java:467) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.allocateNewSegmentFile(RocksDBSegmentLogStorage.java:429) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.doAllocateSegment0(RocksDBSegmentLogStorage.java:720) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.doAllocateSegmentInLock(RocksDBSegmentLogStorage.java:674) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.doAllocateSegment(RocksDBSegmentLogStorage.java:661) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 03:29:56.848 [SegmentAllocator] ERROR SegmentFile:502 - Fail to init segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3479626041216875/segments/0000000000000000001.s.
+java.nio.channels.ClosedByInterruptException: null
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:199) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.map(FileChannelImpl.java:1055) ~[?:?]
+	at com.alipay.sofa.jraft.storage.log.SegmentFile.loadNewFile(SegmentFile.java:487) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.SegmentFile.init(SegmentFile.java:467) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.allocateNewSegmentFile(RocksDBSegmentLogStorage.java:429) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.doAllocateSegment0(RocksDBSegmentLogStorage.java:720) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.doAllocateSegmentInLock(RocksDBSegmentLogStorage.java:674) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.doAllocateSegment(RocksDBSegmentLogStorage.java:661) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 03:30:15.402 [main] ERROR CopySession:191 - Fail to copy data, readerId=99 fileName=__raft_snapshot_meta offset=0 status=Status[ECANCELED<1005>: test cancel]
+2022-11-19 03:30:16.601 [JRaft-Closure-Executor-3] ERROR CopySession:191 - Fail to copy data, readerId=99 fileName=__raft_snapshot_meta offset=0 status=Status[ECANCELED<1005>: ECANCELED]
+2022-11-19 03:30:16.615 [JRaft-Closure-Executor-2] ERROR LocalSnapshotMetaTable:80 - Null buf to load.
+2022-11-19 03:30:18.086 [main] ERROR RemoteFileCopier:93 - Fail to init channel to localhost:8081.
+2022-11-19 03:30:30.235 [main] ERROR FileService:127 - Fail to read file path=/var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3479659426890375 filename=data
+java.io.FileNotFoundException: /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3479659426890375/data (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
+	at com.alipay.sofa.jraft.storage.io.LocalDirReader.readFileWithMeta(LocalDirReader.java:67) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.io.LocalDirReader.readFile(LocalDirReader.java:58) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.FileService.handleGetFile(FileService.java:107) [classes/:?]
+	at com.alipay.sofa.jraft.storage.FileServiceTest.testGetFileNotFound(FileServiceTest.java:83) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.1.jar:4.13.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) [surefire-junit4-2.12.4.jar:2.12.4]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) [surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) [surefire-booter-2.12.4.jar:2.12.4]
+2022-11-19 03:30:36.855 [main] ERROR SegmentFile:685 - Corrupted data in segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3479665030912625/SegmentFileTest at pos=62,  expectDataLength=20, but remaining is 0, will truncate it.
+2022-11-19 03:30:36.878 [main] ERROR SegmentFile:645 - Corrupted magic bytes in segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3479666081664250/SegmentFileTest at pos=57, will truncate it.
+2022-11-19 03:30:41.429 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:30:41.435 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 03:30:41.441 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5005.
+2022-11-19 03:30:42.508 [Bolt-default-executor-4-thread-9] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.ConnectionClosedException: Connection closed! the address is 192.168.68.67:5003.
+2022-11-19 03:30:42.705 [JRaft-RPC-Processor-0] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:30:42.706 [JRaft-RPC-Processor-0] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5003.
+2022-11-19 03:30:42.706 [JRaft-RPC-Processor-0] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:30:42.706 [JRaft-RPC-Processor-0] ERROR NodeImpl:1237 - Fail to add a replicator, peer=192.168.68.67:5003.
+2022-11-19 03:30:42.722 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:30:42.831 [Bolt-default-executor-4-thread-5] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.ConnectionClosedException: Connection closed! the address is 192.168.68.67:5004.
+2022-11-19 03:30:42.846 [Bolt-default-executor-4-thread-5] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:30:44.733 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:30:48.931 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:30:48.933 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 03:30:48.934 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5005.
+2022-11-19 03:31:34.603 [main] ERROR AbstractClientService:157 - Fail to connect localhost:8081, remoting exception: test.
+2022-11-19 03:31:40.110 [main] ERROR ConfigurationEntry:107 - Invalid conf entry ConfigurationEntry [id=LogId [index=0, term=0], conf=localhost:8081,localhost:8082,localhost:8083,localhost:8084/learner, oldConf=localhost:8081,localhost:8082,localhost:8084], peers and learners have intersection: [localhost:8084].
+2022-11-19 03:32:48.044 [main] ERROR ClosureQueueImpl:127 - Invalid endIndex=10, firstIndex=5, closureQueueSize=5
+2022-11-19 03:32:48.047 [main] ERROR ClosureQueueImpl:127 - Invalid endIndex=20, firstIndex=16, closureQueueSize=4
+2022-11-19 03:32:55.440 [main] ERROR Replicator:890 - Fail to init sending channel to localhost:8082.
+2022-11-19 03:32:55.443 [main] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=localhost:8082, replicatorType=Follower.
+2022-11-19 03:32:55.462 [main] ERROR Replicator:890 - Fail to init sending channel to localhost:8082.
+2022-11-19 03:32:55.463 [main] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=localhost:8082, replicatorType=Learner.
+2022-11-19 03:32:57.273 [JRaft-FSMCaller-Disruptor-0] ERROR FSMCallerImpl:597 - Empty conf entry for lastAppliedIndex=10
+2022-11-19 03:32:57.287 [JRaft-FSMCaller-Disruptor-0] ERROR FSMCallerImpl:583 - Iterator is still valid, did you return before iterator reached the end?
+2022-11-19 03:32:57.320 [JRaft-FSMCaller-Disruptor-0] ERROR FSMCallerImpl:583 - Iterator is still valid, did you return before iterator reached the end?
+2022-11-19 03:32:58.875 [main] ERROR BallotBox:206 - Fail to appendingTask, pendingIndex=0.
+2022-11-19 03:32:58.886 [main] ERROR BallotBox:206 - Fail to appendingTask, pendingIndex=0.
+2022-11-19 03:33:09.024 [JRaft-RPC-Processor-1] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:33:09.025 [JRaft-RPC-Processor-1] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5003.
+2022-11-19 03:33:09.025 [JRaft-RPC-Processor-1] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:33:09.026 [JRaft-RPC-Processor-1] ERROR NodeImpl:1237 - Fail to add a replicator, peer=192.168.68.67:5003.
+2022-11-19 03:33:09.128 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:33:09.130 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5003 to get leader for group CliServiceTest.
+2022-11-19 03:33:09.243 [Bolt-default-executor-6-thread-17] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:33:09.483 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:33:09.485 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5003 to get leader for group CliServiceTest.
+2022-11-19 03:33:09.488 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 03:33:09.488 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5004 to get leader for group CliServiceTest.
+2022-11-19 03:33:09.493 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5005.
+2022-11-19 03:33:09.494 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5005 to get leader for group CliServiceTest.
+2022-11-19 03:33:19.300 [JRaft-RPC-Processor-1] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:33:19.305 [JRaft-RPC-Processor-1] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5003.
+2022-11-19 03:33:19.306 [JRaft-RPC-Processor-1] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:33:19.306 [JRaft-RPC-Processor-1] ERROR NodeImpl:1237 - Fail to add a replicator, peer=192.168.68.67:5003.
+2022-11-19 03:33:19.503 [JRaft-StepDownTimer-<CliServiceTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:33:19.658 [JRaft-StepDownTimer-<CliServiceTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:33:19.820 [JRaft-StepDownTimer-<CliServiceTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:33:19.974 [JRaft-StepDownTimer-<CliServiceTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:33:20.128 [JRaft-StepDownTimer-<CliServiceTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:33:20.287 [JRaft-StepDownTimer-<CliServiceTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:33:20.440 [JRaft-StepDownTimer-<CliServiceTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:33:20.493 [Bolt-default-executor-6-thread-4] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:33:20.695 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 03:33:20.696 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5004 to get leader for group CliServiceTest.
+2022-11-19 03:33:20.697 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5005.
+2022-11-19 03:33:20.698 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5005 to get leader for group CliServiceTest.
+2022-11-19 03:33:45.207 [Bolt-default-executor-6-thread-12] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.ConnectionClosedException: Connection closed! the address is 192.168.68.67:5003.
+2022-11-19 03:33:48.390 [JRaft-RPC-Processor-5] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:33:48.406 [JRaft-RPC-Processor-5] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5003.
+2022-11-19 03:33:48.408 [JRaft-RPC-Processor-5] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:33:48.410 [JRaft-RPC-Processor-5] ERROR NodeImpl:1237 - Fail to add a replicator, peer=192.168.68.67:5003.
+2022-11-19 03:33:48.508 [JRaft-Closure-Executor-8] ERROR NodeImpl:2328 - Fail to run ConfigurationChangeDone, status: Status[EPERM<1008>: Leader stepped down].
+2022-11-19 03:33:48.614 [Bolt-default-executor-6-thread-5] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:33:57.544 [JRaft-RPC-Processor-3] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5006, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5006.
+2022-11-19 03:33:57.545 [JRaft-RPC-Processor-3] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5006.
+2022-11-19 03:33:57.546 [JRaft-RPC-Processor-3] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5006, replicatorType=Learner.
+2022-11-19 03:33:57.546 [JRaft-RPC-Processor-3] ERROR NodeImpl:1245 - Fail to add a learner replicator, peer=192.168.68.67:5006.
+2022-11-19 03:33:57.698 [JRaft-StepDownTimer-<unittest/192.168.68.67:5005>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5006, replicatorType=Learner.
+2022-11-19 03:34:00.168 [JRaft-Rpc-Closure-Executor-7] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:34:00.187 [JRaft-Rpc-Closure-Executor-7] ERROR Replicator:625 - Fail to check install snapshot connection to peer=192.168.68.67:5003, give up to send install snapshot request.
+2022-11-19 03:34:02.476 [Bolt-default-executor-6-thread-17] ERROR RpcRequestProcessor:58 - handleRequest group_id: "unitest"
+server_id: "192.168.68.67:5003"
+peer_id: "192.168.68.67:5005"
+term: 2
+last_log_term: 1
+last_log_index: 31
+pre_vote: false
+ failed
+java.lang.IllegalStateException: LocalRaftMetaStorage not initialized
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.checkState(LocalRaftMetaStorage.java:153) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.setVotedFor(LocalRaftMetaStorage.java:172) ~[classes/:?]
+	at com.alipay.sofa.jraft.core.NodeImpl.handleRequestVoteRequest(NodeImpl.java:1801) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.RequestVoteRequestProcessor.processRequest0(RequestVoteRequestProcessor.java:56) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.RequestVoteRequestProcessor.processRequest0(RequestVoteRequestProcessor.java:34) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.NodeRequestProcessor.processRequest(NodeRequestProcessor.java:60) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53) [classes/:?]
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35) [classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.BoltRpcServer$2.handleRequest(BoltRpcServer.java:124) [classes/:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:235) [bolt-1.6.4.jar:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:146) [bolt-1.6.4.jar:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:393) [bolt-1.6.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 03:34:04.213 [JRaft-RPC-Processor-1] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 03:34:04.225 [JRaft-RPC-Processor-1] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5004.
+2022-11-19 03:34:04.225 [JRaft-RPC-Processor-1] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 03:34:04.226 [JRaft-RPC-Processor-1] ERROR NodeImpl:1237 - Fail to add a replicator, peer=192.168.68.67:5004.
+2022-11-19 03:34:04.381 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 03:34:04.540 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 03:34:04.701 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 03:34:04.860 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 03:34:05.019 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 03:34:05.177 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 03:34:05.330 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 03:34:05.501 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 03:34:05.656 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 03:34:05.812 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 03:34:05.970 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 03:34:06.149 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 03:34:06.235 [Bolt-default-executor-6-thread-11] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.ConnectionClosedException: Connection closed! the address is 192.168.68.67:5003.
+2022-11-19 03:34:06.632 [JRaft-FSMCaller-Disruptor-0] ERROR StateMachineAdapter:72 - Encountered an error=Status[ESTATEMACHINE<10002>: StateMachine meet critical error when applying one or more tasks since index=6, Status[UNKNOWN<-1>: testRollbackStateMachineWithReadIndex_Issue317]] on StateMachine com.alipay.sofa.jraft.core.NodeTest$1, it's highly recommended to implement this method as raft stops working since some error occurs, you should figure out the cause and repair or remove this node.
+com.alipay.sofa.jraft.error.RaftException: null
+	at com.alipay.sofa.jraft.core.IteratorImpl.getOrCreateError(IteratorImpl.java:182) ~[classes/:?]
+	at com.alipay.sofa.jraft.core.IteratorImpl.setErrorAndRollback(IteratorImpl.java:173) ~[classes/:?]
+	at com.alipay.sofa.jraft.core.IteratorWrapper.setErrorAndRollback(IteratorWrapper.java:83) ~[classes/:?]
+	at com.alipay.sofa.jraft.core.NodeTest$1.onApply(NodeTest.java:286) ~[test-classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.doApplyTasks(FSMCallerImpl.java:577) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.doCommitted(FSMCallerImpl.java:541) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.runApplyTask(FSMCallerImpl.java:449) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.access$100(FSMCallerImpl.java:72) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl$ApplyTaskHandler.onEvent(FSMCallerImpl.java:149) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl$ApplyTaskHandler.onEvent(FSMCallerImpl.java:141) [classes/:?]
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:137) [disruptor-3.3.7.jar:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 03:34:45.560 [JRaft-FSMCaller-Disruptor-0] ERROR StateMachineAdapter:72 - Encountered an error=Status[ESTATEMACHINE<10002>: StateMachine onSnapshotLoad failed] on StateMachine com.alipay.sofa.jraft.core.NodeTest$MockFSM1, it's highly recommended to implement this method as raft stops working since some error occurs, you should figure out the cause and repair or remove this node.
+com.alipay.sofa.jraft.error.RaftException: StateMachine onSnapshotLoad failed
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.doSnapshotLoad(FSMCallerImpl.java:692) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.runApplyTask(FSMCallerImpl.java:406) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.access$100(FSMCallerImpl.java:72) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl$ApplyTaskHandler.onEvent(FSMCallerImpl.java:149) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl$ApplyTaskHandler.onEvent(FSMCallerImpl.java:141) [classes/:?]
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:137) [disruptor-3.3.7.jar:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 03:34:45.560 [main] ERROR SnapshotExecutorImpl:278 - Fail to load snapshot from /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3479913500487167/snapshot, FirstSnapshotLoadDone status is Status[UNKNOWN<-1>: StateMachine onSnapshotLoad failed].
+2022-11-19 03:34:45.566 [main] ERROR NodeImpl:1019 - Node <unittest/192.168.68.67:5003> initSnapshotStorage failed.
+2022-11-19 03:34:49.131 [Bolt-default-executor-6-thread-6] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:34:54.616 [Bolt-default-executor-6-thread-1] ERROR RpcRequestProcessor:58 - handleRequest group_id: "unitest"
+server_id: "192.168.68.67:5003"
+peer_id: "192.168.68.67:5005"
+term: 2
+last_log_term: 1
+last_log_index: 12
+pre_vote: false
+ failed
+java.lang.IllegalStateException: LocalRaftMetaStorage not initialized
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.checkState(LocalRaftMetaStorage.java:153) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.setVotedFor(LocalRaftMetaStorage.java:172) ~[classes/:?]
+	at com.alipay.sofa.jraft.core.NodeImpl.handleRequestVoteRequest(NodeImpl.java:1801) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.RequestVoteRequestProcessor.processRequest0(RequestVoteRequestProcessor.java:56) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.RequestVoteRequestProcessor.processRequest0(RequestVoteRequestProcessor.java:34) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.NodeRequestProcessor.processRequest(NodeRequestProcessor.java:60) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53) [classes/:?]
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35) [classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.BoltRpcServer$2.handleRequest(BoltRpcServer.java:124) [classes/:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:235) [bolt-1.6.4.jar:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:146) [bolt-1.6.4.jar:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:393) [bolt-1.6.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 03:34:56.629 [Bolt-default-executor-6-thread-6] ERROR RpcRequestProcessor:58 - handleRequest group_id: "unittest"
+server_id: "192.168.68.67:5004"
+peer_id: "192.168.68.67:5005"
+term: 3
+last_log_term: 2
+last_log_index: 26
+pre_vote: false
+ failed
+java.lang.IllegalStateException: LocalRaftMetaStorage not initialized
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.checkState(LocalRaftMetaStorage.java:153) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.setVotedFor(LocalRaftMetaStorage.java:172) ~[classes/:?]
+	at com.alipay.sofa.jraft.core.NodeImpl.handleRequestVoteRequest(NodeImpl.java:1801) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.RequestVoteRequestProcessor.processRequest0(RequestVoteRequestProcessor.java:56) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.RequestVoteRequestProcessor.processRequest0(RequestVoteRequestProcessor.java:34) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.NodeRequestProcessor.processRequest(NodeRequestProcessor.java:60) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53) [classes/:?]
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35) [classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.BoltRpcServer$2.handleRequest(BoltRpcServer.java:124) [classes/:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:235) [bolt-1.6.4.jar:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:146) [bolt-1.6.4.jar:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:393) [bolt-1.6.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 03:35:04.512 [Bolt-default-executor-6-thread-7] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5003.
+2022-11-19 03:35:04.524 [Bolt-default-executor-6-thread-7] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5004.
+2022-11-19 03:35:04.786 [JRaft-RPC-Processor-2] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5003.
+2022-11-19 03:35:04.820 [JRaft-RPC-Processor-2] ERROR Replicator:890 - Fail to init sending channel to 127.0.0.1:5003.
+2022-11-19 03:35:04.837 [JRaft-RPC-Processor-2] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=127.0.0.1:5003, replicatorType=Follower.
+2022-11-19 03:35:04.856 [JRaft-RPC-Processor-2] ERROR NodeImpl:1237 - Fail to add a replicator, peer=127.0.0.1:5003.
+2022-11-19 03:35:04.878 [JRaft-RPC-Processor-2] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5004.
+2022-11-19 03:35:04.879 [JRaft-RPC-Processor-2] ERROR Replicator:890 - Fail to init sending channel to 127.0.0.1:5004.
+2022-11-19 03:35:04.879 [JRaft-RPC-Processor-2] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=127.0.0.1:5004, replicatorType=Follower.
+2022-11-19 03:35:04.880 [JRaft-RPC-Processor-2] ERROR NodeImpl:1237 - Fail to add a replicator, peer=127.0.0.1:5004.
+2022-11-19 03:35:05.026 [Bolt-default-executor-6-thread-15] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5003.
+2022-11-19 03:35:05.035 [Bolt-default-executor-6-thread-15] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5004.
+2022-11-19 03:39:30.076 [main] ERROR LocalRaftMetaStorage:124 - Fail to save raft meta
+java.io.FileNotFoundException: /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3480199107461167/raft_meta.tmp (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:299) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:238) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:188) ~[?:?]
+	at com.alipay.sofa.jraft.storage.io.ProtoBufFile.save(ProtoBufFile.java:103) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.save(LocalRaftMetaStorage.java:118) [classes/:?]
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.setVotedFor(LocalRaftMetaStorage.java:174) [classes/:?]
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorageTest.testSaveFail(LocalRaftMetaStorageTest.java:98) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.1.jar:4.13.1]
+	at org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.run(JUnit45AndHigherRunnerImpl.java:37) [mockito-all-1.9.5.jar:?]
+	at org.mockito.runners.MockitoJUnitRunner.run(MockitoJUnitRunner.java:62) [mockito-all-1.9.5.jar:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) [surefire-junit4-2.12.4.jar:2.12.4]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) [surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) [surefire-booter-2.12.4.jar:2.12.4]
+2022-11-19 03:39:59.713 [SegmentAllocator] ERROR SegmentFile:502 - Fail to init segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3480228889760917/segments/0000000000000000001.s.
+java.nio.channels.ClosedByInterruptException: null
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:199) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.map(FileChannelImpl.java:1055) ~[?:?]
+	at com.alipay.sofa.jraft.storage.log.SegmentFile.loadNewFile(SegmentFile.java:487) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.SegmentFile.init(SegmentFile.java:467) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.allocateNewSegmentFile(RocksDBSegmentLogStorage.java:429) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.doAllocateSegment0(RocksDBSegmentLogStorage.java:720) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.doAllocateSegmentInLock(RocksDBSegmentLogStorage.java:674) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.doAllocateSegment(RocksDBSegmentLogStorage.java:661) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 03:40:18.425 [main] ERROR CopySession:191 - Fail to copy data, readerId=99 fileName=__raft_snapshot_meta offset=0 status=Status[ECANCELED<1005>: test cancel]
+2022-11-19 03:40:19.639 [JRaft-Closure-Executor-3] ERROR CopySession:191 - Fail to copy data, readerId=99 fileName=__raft_snapshot_meta offset=0 status=Status[ECANCELED<1005>: ECANCELED]
+2022-11-19 03:40:19.655 [JRaft-Closure-Executor-2] ERROR LocalSnapshotMetaTable:80 - Null buf to load.
+2022-11-19 03:40:21.190 [main] ERROR RemoteFileCopier:93 - Fail to init channel to localhost:8081.
+2022-11-19 03:40:33.298 [main] ERROR FileService:127 - Fail to read file path=/var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3480262487682792 filename=data
+java.io.FileNotFoundException: /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3480262487682792/data (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
+	at com.alipay.sofa.jraft.storage.io.LocalDirReader.readFileWithMeta(LocalDirReader.java:67) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.io.LocalDirReader.readFile(LocalDirReader.java:58) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.FileService.handleGetFile(FileService.java:107) [classes/:?]
+	at com.alipay.sofa.jraft.storage.FileServiceTest.testGetFileNotFound(FileServiceTest.java:83) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.1.jar:4.13.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) [surefire-junit4-2.12.4.jar:2.12.4]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) [surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) [surefire-booter-2.12.4.jar:2.12.4]
+2022-11-19 03:40:39.806 [main] ERROR SegmentFile:685 - Corrupted data in segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3480267988304875/SegmentFileTest at pos=62,  expectDataLength=20, but remaining is 0, will truncate it.
+2022-11-19 03:40:39.835 [main] ERROR SegmentFile:645 - Corrupted magic bytes in segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3480269036720708/SegmentFileTest at pos=57, will truncate it.
+2022-11-19 03:40:44.509 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:40:44.517 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 03:40:44.524 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5005.
+2022-11-19 03:40:46.258 [JRaft-RPC-Processor-1] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:40:46.261 [JRaft-RPC-Processor-1] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5003.
+2022-11-19 03:40:46.262 [JRaft-RPC-Processor-1] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 03:40:46.262 [JRaft-RPC-Processor-1] ERROR NodeImpl:1237 - Fail to add a replicator, peer=192.168.68.67:5003.
+2022-11-19 03:40:46.294 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:40:46.401 [Bolt-default-executor-4-thread-19] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:40:48.446 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:40:53.062 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 03:40:53.068 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 03:40:53.075 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5005.
+2022-11-19 03:41:38.528 [main] ERROR AbstractClientService:157 - Fail to connect localhost:8081, remoting exception: test.
+2022-11-19 03:41:44.085 [main] ERROR ConfigurationEntry:107 - Invalid conf entry ConfigurationEntry [id=LogId [index=0, term=0], conf=localhost:8081,localhost:8082,localhost:8083,localhost:8084/learner, oldConf=localhost:8081,localhost:8082,localhost:8084], peers and learners have intersection: [localhost:8084].
+2022-11-19 17:45:27.909 [main] ERROR ClosureQueueImpl:127 - Invalid endIndex=10, firstIndex=5, closureQueueSize=5
+2022-11-19 17:45:27.912 [main] ERROR ClosureQueueImpl:127 - Invalid endIndex=20, firstIndex=16, closureQueueSize=4
+2022-11-19 17:45:35.508 [main] ERROR Replicator:890 - Fail to init sending channel to localhost:8082.
+2022-11-19 17:45:35.510 [main] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=localhost:8082, replicatorType=Follower.
+2022-11-19 17:45:35.528 [main] ERROR Replicator:890 - Fail to init sending channel to localhost:8082.
+2022-11-19 17:45:35.529 [main] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=localhost:8082, replicatorType=Learner.
+2022-11-19 17:45:37.457 [JRaft-FSMCaller-Disruptor-0] ERROR FSMCallerImpl:597 - Empty conf entry for lastAppliedIndex=10
+2022-11-19 17:45:37.474 [JRaft-FSMCaller-Disruptor-0] ERROR FSMCallerImpl:583 - Iterator is still valid, did you return before iterator reached the end?
+2022-11-19 17:45:37.489 [JRaft-FSMCaller-Disruptor-0] ERROR FSMCallerImpl:583 - Iterator is still valid, did you return before iterator reached the end?
+2022-11-19 17:45:39.112 [main] ERROR BallotBox:206 - Fail to appendingTask, pendingIndex=0.
+2022-11-19 17:45:39.168 [main] ERROR BallotBox:206 - Fail to appendingTask, pendingIndex=0.
+2022-11-19 17:45:52.390 [JRaft-RPC-Processor-3] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 17:45:52.392 [JRaft-RPC-Processor-3] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5003.
+2022-11-19 17:45:52.392 [JRaft-RPC-Processor-3] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 17:45:52.392 [JRaft-RPC-Processor-3] ERROR NodeImpl:1237 - Fail to add a replicator, peer=192.168.68.67:5003.
+2022-11-19 17:45:52.578 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 17:45:52.580 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5003 to get leader for group CliServiceTest.
+2022-11-19 17:45:52.730 [Bolt-default-executor-6-thread-4] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.ConnectionClosedException: Connection closed! the address is 192.168.68.67:5004.
+2022-11-19 17:45:52.756 [Bolt-default-executor-6-thread-4] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 17:45:52.960 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 17:45:52.961 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5003 to get leader for group CliServiceTest.
+2022-11-19 17:45:52.966 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 17:45:52.967 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5004 to get leader for group CliServiceTest.
+2022-11-19 17:45:52.970 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5005.
+2022-11-19 17:45:52.971 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5005 to get leader for group CliServiceTest.
+2022-11-19 17:46:04.936 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 17:46:04.939 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5004 to get leader for group CliServiceTest.
+2022-11-19 17:46:04.940 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5005.
+2022-11-19 17:46:04.940 [main] ERROR CliServiceImpl:453 - Fail to connect peer 192.168.68.67:5005 to get leader for group CliServiceTest.
+2022-11-19 17:46:18.738 [RocksDBSegmentLogStorage-Checkpoint-Thread-0] ERROR RocksDBSegmentLogStorage:849 - Fatal error, fail to do checkpoint, last segment file is /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3500725575179083/192.168.68.67_5106/logs/segments/0000000000000000000.s.
+java.nio.channels.ClosedByInterruptException: null
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:199) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.force(FileChannelImpl.java:465) ~[?:?]
+	at com.alipay.sofa.jraft.util.Utils.fsync(Utils.java:401) ~[classes/:?]
+	at com.alipay.sofa.jraft.util.Utils.atomicMoveFile(Utils.java:382) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.io.ProtoBufFile.save(ProtoBufFile.java:124) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.CheckpointFile.save(CheckpointFile.java:104) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.doCheckpoint(RocksDBSegmentLogStorage.java:843) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 17:46:43.137 [JRaft-RPC-Processor-2] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5006, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5006.
+2022-11-19 17:46:43.159 [JRaft-RPC-Processor-2] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5006.
+2022-11-19 17:46:43.161 [JRaft-RPC-Processor-2] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5006, replicatorType=Learner.
+2022-11-19 17:46:43.162 [JRaft-RPC-Processor-2] ERROR NodeImpl:1245 - Fail to add a learner replicator, peer=192.168.68.67:5006.
+2022-11-19 17:46:43.324 [JRaft-StepDownTimer-<unittest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5006, replicatorType=Learner.
+2022-11-19 17:46:46.116 [JRaft-Rpc-Closure-Executor-9] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 17:46:46.128 [JRaft-Rpc-Closure-Executor-9] ERROR Replicator:625 - Fail to check install snapshot connection to peer=192.168.68.67:5004, give up to send install snapshot request.
+2022-11-19 17:46:46.161 [JRaft-Rpc-Closure-Executor-6] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 17:46:46.161 [JRaft-Rpc-Closure-Executor-6] ERROR Replicator:625 - Fail to check install snapshot connection to peer=192.168.68.67:5004, give up to send install snapshot request.
+2022-11-19 17:46:48.427 [JRaft-RPC-Processor-3] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 17:46:48.454 [JRaft-RPC-Processor-3] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5003.
+2022-11-19 17:46:48.473 [JRaft-RPC-Processor-3] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 17:46:48.487 [JRaft-RPC-Processor-3] ERROR NodeImpl:1237 - Fail to add a replicator, peer=192.168.68.67:5003.
+2022-11-19 17:46:48.492 [JRaft-RPC-Processor-3] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Connection is null when do check!.
+2022-11-19 17:46:48.511 [JRaft-RPC-Processor-3] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5005.
+2022-11-19 17:46:48.511 [JRaft-RPC-Processor-3] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5005, replicatorType=Follower.
+2022-11-19 17:46:48.512 [JRaft-RPC-Processor-3] ERROR NodeImpl:1237 - Fail to add a replicator, peer=192.168.68.67:5005.
+2022-11-19 17:46:48.534 [JRaft-Closure-Executor-9] ERROR NodeImpl:2328 - Fail to run ConfigurationChangeDone, status: Status[EPERM<1008>: Leader stepped down].
+2022-11-19 17:46:50.044 [JRaft-RPC-Processor-1] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 17:46:50.044 [JRaft-RPC-Processor-1] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5004.
+2022-11-19 17:46:50.044 [JRaft-RPC-Processor-1] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 17:46:50.044 [JRaft-RPC-Processor-1] ERROR NodeImpl:1237 - Fail to add a replicator, peer=192.168.68.67:5004.
+2022-11-19 17:46:50.200 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 17:46:50.353 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 17:46:50.509 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 17:46:50.663 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 17:46:50.825 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 17:46:51.006 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 17:46:51.180 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 17:46:51.337 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 17:46:51.507 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 17:46:51.679 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 17:46:51.838 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 17:46:51.991 [JRaft-StepDownTimer-<unitest/192.168.68.67:5003>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 17:46:52.538 [JRaft-FSMCaller-Disruptor-0] ERROR StateMachineAdapter:72 - Encountered an error=Status[ESTATEMACHINE<10002>: StateMachine meet critical error when applying one or more tasks since index=6, Status[UNKNOWN<-1>: testRollbackStateMachineWithReadIndex_Issue317]] on StateMachine com.alipay.sofa.jraft.core.NodeTest$1, it's highly recommended to implement this method as raft stops working since some error occurs, you should figure out the cause and repair or remove this node.
+com.alipay.sofa.jraft.error.RaftException: null
+	at com.alipay.sofa.jraft.core.IteratorImpl.getOrCreateError(IteratorImpl.java:182) ~[classes/:?]
+	at com.alipay.sofa.jraft.core.IteratorImpl.setErrorAndRollback(IteratorImpl.java:173) ~[classes/:?]
+	at com.alipay.sofa.jraft.core.IteratorWrapper.setErrorAndRollback(IteratorWrapper.java:83) ~[classes/:?]
+	at com.alipay.sofa.jraft.core.NodeTest$1.onApply(NodeTest.java:286) ~[test-classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.doApplyTasks(FSMCallerImpl.java:577) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.doCommitted(FSMCallerImpl.java:541) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.runApplyTask(FSMCallerImpl.java:449) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.access$100(FSMCallerImpl.java:72) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl$ApplyTaskHandler.onEvent(FSMCallerImpl.java:149) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl$ApplyTaskHandler.onEvent(FSMCallerImpl.java:141) [classes/:?]
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:137) [disruptor-3.3.7.jar:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 17:47:33.947 [main] ERROR SnapshotExecutorImpl:278 - Fail to load snapshot from /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3500805441186375/snapshot, FirstSnapshotLoadDone status is Status[UNKNOWN<-1>: StateMachine onSnapshotLoad failed].
+2022-11-19 17:47:33.947 [JRaft-FSMCaller-Disruptor-0] ERROR StateMachineAdapter:72 - Encountered an error=Status[ESTATEMACHINE<10002>: StateMachine onSnapshotLoad failed] on StateMachine com.alipay.sofa.jraft.core.NodeTest$MockFSM1, it's highly recommended to implement this method as raft stops working since some error occurs, you should figure out the cause and repair or remove this node.
+com.alipay.sofa.jraft.error.RaftException: StateMachine onSnapshotLoad failed
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.doSnapshotLoad(FSMCallerImpl.java:692) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.runApplyTask(FSMCallerImpl.java:406) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl.access$100(FSMCallerImpl.java:72) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl$ApplyTaskHandler.onEvent(FSMCallerImpl.java:149) [classes/:?]
+	at com.alipay.sofa.jraft.core.FSMCallerImpl$ApplyTaskHandler.onEvent(FSMCallerImpl.java:141) [classes/:?]
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:137) [disruptor-3.3.7.jar:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 17:47:33.954 [main] ERROR NodeImpl:1019 - Node <unittest/192.168.68.67:5003> initSnapshotStorage failed.
+2022-11-19 17:47:43.565 [Bolt-default-executor-6-thread-5] ERROR RpcRequestProcessor:58 - handleRequest group_id: "unitest"
+server_id: "192.168.68.67:5003"
+peer_id: "192.168.68.67:5005"
+term: 2
+last_log_term: 1
+last_log_index: 12
+pre_vote: false
+ failed
+java.lang.IllegalStateException: LocalRaftMetaStorage not initialized
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.checkState(LocalRaftMetaStorage.java:153) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.setVotedFor(LocalRaftMetaStorage.java:172) ~[classes/:?]
+	at com.alipay.sofa.jraft.core.NodeImpl.handleRequestVoteRequest(NodeImpl.java:1801) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.RequestVoteRequestProcessor.processRequest0(RequestVoteRequestProcessor.java:56) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.RequestVoteRequestProcessor.processRequest0(RequestVoteRequestProcessor.java:34) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.core.NodeRequestProcessor.processRequest(NodeRequestProcessor.java:60) ~[classes/:?]
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53) [classes/:?]
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35) [classes/:?]
+	at com.alipay.sofa.jraft.rpc.impl.BoltRpcServer$2.handleRequest(BoltRpcServer.java:124) [classes/:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.dispatchToUserProcessor(RpcRequestProcessor.java:235) [bolt-1.6.4.jar:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor.doProcess(RpcRequestProcessor.java:146) [bolt-1.6.4.jar:?]
+	at com.alipay.remoting.rpc.protocol.RpcRequestProcessor$ProcessTask.run(RpcRequestProcessor.java:393) [bolt-1.6.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 17:47:54.440 [Bolt-default-executor-6-thread-6] ERROR AbstractClientService:157 - Fail to connect 127.0.0.1:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:5003.
+2022-11-19 17:52:23.252 [main] ERROR LocalRaftMetaStorage:124 - Fail to save raft meta
+java.io.FileNotFoundException: /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3501095786169333/raft_meta.tmp (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:299) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:238) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:188) ~[?:?]
+	at com.alipay.sofa.jraft.storage.io.ProtoBufFile.save(ProtoBufFile.java:103) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.save(LocalRaftMetaStorage.java:118) [classes/:?]
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorage.setVotedFor(LocalRaftMetaStorage.java:174) [classes/:?]
+	at com.alipay.sofa.jraft.storage.impl.LocalRaftMetaStorageTest.testSaveFail(LocalRaftMetaStorageTest.java:98) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.1.jar:4.13.1]
+	at org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.run(JUnit45AndHigherRunnerImpl.java:37) [mockito-all-1.9.5.jar:?]
+	at org.mockito.runners.MockitoJUnitRunner.run(MockitoJUnitRunner.java:62) [mockito-all-1.9.5.jar:?]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) [surefire-junit4-2.12.4.jar:2.12.4]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) [surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) [surefire-booter-2.12.4.jar:2.12.4]
+2022-11-19 17:52:54.282 [SegmentAllocator] ERROR SegmentFile:502 - Fail to init segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3501126984654541/segments/0000000000000000001.s.
+java.nio.channels.ClosedByInterruptException: null
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:199) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.map(FileChannelImpl.java:1055) ~[?:?]
+	at com.alipay.sofa.jraft.storage.log.SegmentFile.loadNewFile(SegmentFile.java:487) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.SegmentFile.init(SegmentFile.java:467) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.allocateNewSegmentFile(RocksDBSegmentLogStorage.java:429) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.doAllocateSegment0(RocksDBSegmentLogStorage.java:720) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.doAllocateSegmentInLock(RocksDBSegmentLogStorage.java:674) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.log.RocksDBSegmentLogStorage.doAllocateSegment(RocksDBSegmentLogStorage.java:661) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+2022-11-19 17:53:13.308 [main] ERROR CopySession:191 - Fail to copy data, readerId=99 fileName=__raft_snapshot_meta offset=0 status=Status[ECANCELED<1005>: test cancel]
+2022-11-19 17:53:14.494 [JRaft-Closure-Executor-3] ERROR CopySession:191 - Fail to copy data, readerId=99 fileName=__raft_snapshot_meta offset=0 status=Status[ECANCELED<1005>: ECANCELED]
+2022-11-19 17:53:14.512 [JRaft-Closure-Executor-2] ERROR LocalSnapshotMetaTable:80 - Null buf to load.
+2022-11-19 17:53:16.018 [main] ERROR RemoteFileCopier:93 - Fail to init channel to localhost:8081.
+2022-11-19 17:53:28.444 [main] ERROR FileService:127 - Fail to read file path=/var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3501161164174375 filename=data
+java.io.FileNotFoundException: /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3501161164174375/data (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
+	at com.alipay.sofa.jraft.storage.io.LocalDirReader.readFileWithMeta(LocalDirReader.java:67) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.io.LocalDirReader.readFile(LocalDirReader.java:58) ~[classes/:?]
+	at com.alipay.sofa.jraft.storage.FileService.handleGetFile(FileService.java:107) [classes/:?]
+	at com.alipay.sofa.jraft.storage.FileServiceTest.testGetFileNotFound(FileServiceTest.java:83) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.1.jar:4.13.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) [surefire-junit4-2.12.4.jar:2.12.4]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) [surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) [surefire-booter-2.12.4.jar:2.12.4]
+2022-11-19 17:53:35.435 [main] ERROR SegmentFile:685 - Corrupted data in segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3501167057869000/SegmentFileTest at pos=62,  expectDataLength=20, but remaining is 0, will truncate it.
+2022-11-19 17:53:35.456 [main] ERROR SegmentFile:645 - Corrupted magic bytes in segment file /var/folders/bg/sb4h5l_x04s9xxjqd12bzfnw0000gn/T/jraft_test_3501168188988625/SegmentFileTest at pos=57, will truncate it.
+2022-11-19 17:53:40.169 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 17:53:40.177 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 17:53:40.186 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5005.
+2022-11-19 17:53:41.273 [JRaft-RPC-Processor-1] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 17:53:41.279 [JRaft-RPC-Processor-1] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5004.
+2022-11-19 17:53:41.280 [JRaft-RPC-Processor-1] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5004, replicatorType=Follower.
+2022-11-19 17:53:41.281 [JRaft-RPC-Processor-1] ERROR NodeImpl:1237 - Fail to add a replicator, peer=192.168.68.67:5004.
+2022-11-19 17:53:41.308 [Bolt-default-executor-4-thread-2] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 17:53:42.437 [JRaft-RPC-Processor-1] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 17:53:42.440 [JRaft-RPC-Processor-1] ERROR Replicator:890 - Fail to init sending channel to 192.168.68.67:5003.
+2022-11-19 17:53:42.441 [JRaft-RPC-Processor-1] ERROR ReplicatorGroupImpl:132 - Fail to start replicator to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 17:53:42.441 [JRaft-RPC-Processor-1] ERROR NodeImpl:1237 - Fail to add a replicator, peer=192.168.68.67:5003.
+2022-11-19 17:53:42.603 [JRaft-StepDownTimer-<RouteTableTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 17:53:42.765 [JRaft-StepDownTimer-<RouteTableTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 17:53:42.924 [JRaft-StepDownTimer-<RouteTableTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 17:53:43.088 [JRaft-StepDownTimer-<RouteTableTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 17:53:43.247 [JRaft-StepDownTimer-<RouteTableTest/192.168.68.67:5004>0] ERROR ReplicatorGroupImpl:125 - Fail to check replicator connection to peer=192.168.68.67:5003, replicatorType=Follower.
+2022-11-19 17:53:43.308 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 17:53:43.381 [Bolt-default-executor-4-thread-13] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 17:53:47.755 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5003.
+2022-11-19 17:53:47.758 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5004, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5004.
+2022-11-19 17:53:47.760 [main] ERROR AbstractClientService:157 - Fail to connect 192.168.68.67:5005, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 192.168.68.67:5005.
+2022-11-19 17:54:35.934 [main] ERROR AbstractClientService:157 - Fail to connect localhost:8081, remoting exception: test.
+2022-11-19 17:54:41.864 [main] ERROR ConfigurationEntry:107 - Invalid conf entry ConfigurationEntry [id=LogId [index=0, term=0], conf=localhost:8081,localhost:8082,localhost:8083,localhost:8084/learner, oldConf=localhost:8081,localhost:8082,localhost:8084], peers and learners have intersection: [localhost:8084].

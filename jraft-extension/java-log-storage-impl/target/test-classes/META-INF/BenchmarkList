@@ -1,0 +1,3 @@
+JMH S 52 com.alipay.sofa.jraft.storage.Benchmark.JmhBenchmark S 83 com.alipay.sofa.jraft.storage.Benchmark.generated.JmhBenchmark_bigBatchSize_jmhTest S 12 bigBatchSize S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
+JMH S 52 com.alipay.sofa.jraft.storage.Benchmark.JmhBenchmark S 85 com.alipay.sofa.jraft.storage.Benchmark.generated.JmhBenchmark_smallBatchSize_jmhTest S 14 smallBatchSize S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
+JMH S 52 com.alipay.sofa.jraft.storage.Benchmark.JmhBenchmark S 86 com.alipay.sofa.jraft.storage.Benchmark.generated.JmhBenchmark_normalBatchSize_jmhTest S 15 normalBatchSize S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 

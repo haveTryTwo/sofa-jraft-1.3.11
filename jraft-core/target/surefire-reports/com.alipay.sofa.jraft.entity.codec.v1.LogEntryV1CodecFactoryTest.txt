@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.alipay.sofa.jraft.entity.codec.v1.LogEntryV1CodecFactoryTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.992 sec
