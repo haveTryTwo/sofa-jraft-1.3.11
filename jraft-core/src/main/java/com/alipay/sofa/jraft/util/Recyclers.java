@@ -12,6 +12,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
+
 package com.alipay.sofa.jraft.util;
 
 import java.lang.ref.WeakReference;
@@ -19,7 +20,6 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.WeakHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -32,29 +32,31 @@ import org.slf4j.LoggerFactory;
  */
 public abstract class Recyclers<T> {
 
+    public static final Handle NOOP_HANDLE = new Handle() {
+    };
     private static final Logger LOG = LoggerFactory.getLogger(Recyclers.class);
-
-    private static final AtomicInteger idGenerator = new AtomicInteger(Integer.MIN_VALUE);
-
+    private static final AtomicInteger idGenerator = new AtomicInteger(Integer.MIN_VALUE); // NOTE:htt, id生成器
     private static final int OWN_THREAD_ID = idGenerator.getAndIncrement();
     private static final int DEFAULT_INITIAL_MAX_CAPACITY_PER_THREAD = 4 * 1024; // Use 4k instances as default.
     private static final int MAX_CAPACITY_PER_THREAD;
     private static final int INITIAL_CAPACITY;
+    private static final ThreadLocal<Map<Stack<?>, WeakOrderQueue>> delayedRecycled = ThreadLocal.withInitial(
+            WeakHashMap::new);
 
     static {
-        int maxCapacityPerThread = SystemPropertyUtil.getInt("jraft.recyclers.maxCapacityPerThread", DEFAULT_INITIAL_MAX_CAPACITY_PER_THREAD);
+        int maxCapacityPerThread = SystemPropertyUtil.getInt("jraft.recyclers.maxCapacityPerThread",
+                DEFAULT_INITIAL_MAX_CAPACITY_PER_THREAD);
         if (maxCapacityPerThread < 0) {
             maxCapacityPerThread = DEFAULT_INITIAL_MAX_CAPACITY_PER_THREAD;
         }
 
         MAX_CAPACITY_PER_THREAD = maxCapacityPerThread;
 
-        LOG.info("-Djraft.recyclers.maxCapacityPerThread: {}.", MAX_CAPACITY_PER_THREAD == 0 ? "disabled" : MAX_CAPACITY_PER_THREAD);
+        LOG.info("-Djraft.recyclers.maxCapacityPerThread: {}.",
+                MAX_CAPACITY_PER_THREAD == 0 ? "disabled" : MAX_CAPACITY_PER_THREAD);
 
         INITIAL_CAPACITY = Math.min(MAX_CAPACITY_PER_THREAD, 256);
     }
-
-    public static final Handle NOOP_HANDLE = new Handle() {};
 
     private final int maxCapacityPerThread;
     private final ThreadLocal<Stack<T>> threadLocal = new ThreadLocal<Stack<T>>() {
@@ -119,20 +121,23 @@ public abstract class Recyclers<T> {
         return threadLocal.get().size;
     }
 
-    public interface Handle {}
+    public interface Handle {
 
-    static final class DefaultHandle implements Handle {
-        private int lastRecycledId;
+    }
+
+    static final class DefaultHandle implements Handle { // NOTE:htt, 默认处理Handler
+
+        private int lastRecycledId; // NOTE:htt, 最近一次回收id
         private int recycleId;
 
-        private Stack<?> stack;
+        private Stack<?> stack; // NOTE:htt, stack，
         private Object value;
 
         DefaultHandle(Stack<?> stack) {
             this.stack = stack;
         }
 
-        public void recycle() {
+        public void recycle() { // NOTE:htt, 回收
             Thread thread = Thread.currentThread();
 
             final Stack<?> stack = this.stack;
@@ -140,7 +145,7 @@ public abstract class Recyclers<T> {
                 throw new IllegalStateException("recycled already");
             }
 
-            if (thread == stack.thread) {
+            if (thread == stack.thread) { // NOTE:htt, 相同的thread，直接加入到stack中
                 stack.push(this);
                 return;
             }
@@ -156,30 +161,19 @@ public abstract class Recyclers<T> {
         }
     }
 
-    private static final ThreadLocal<Map<Stack<?>, WeakOrderQueue>> delayedRecycled = ThreadLocal.withInitial(WeakHashMap::new);
-
     // a queue that makes only moderate guarantees about visibility: items are seen in the correct order,
     // but we aren't absolutely guaranteed to ever see anything at all, thereby keeping the queue cheap to maintain
     private static final class WeakOrderQueue {
+
         private static final int LINK_CAPACITY = 16;
-
-        // Let Link extend AtomicInteger for intrinsics. The Link itself will be used as writerIndex.
-        @SuppressWarnings("serial")
-        private static final class Link extends AtomicInteger {
-            private final DefaultHandle[] elements = new DefaultHandle[LINK_CAPACITY];
-
-            private int readIndex;
-            private Link next;
-        }
-
+        private final WeakReference<Thread> owner;
+        private final int id = idGenerator.getAndIncrement(); // NOTE:htt, 生成id
         // chain of data items
         private Link head, tail;
         // pointer to another queue of delayed items for the same stack
         private WeakOrderQueue next;
-        private final WeakReference<Thread> owner;
-        private final int id = idGenerator.getAndIncrement();
 
-        WeakOrderQueue(Stack<?> stack, Thread thread) {
+        WeakOrderQueue(Stack<?> stack, Thread thread) { // NOTE:htt, 构造函数
             head = tail = new Link();
             owner = new WeakReference<>(thread);
             synchronized (stackLock(stack)) {
@@ -188,11 +182,11 @@ public abstract class Recyclers<T> {
             }
         }
 
-        private Object stackLock(Stack<?> stack) {
+        private Object stackLock(Stack<?> stack) { // NOTE:htt, 返回锁住对象
             return stack;
         }
 
-        void add(DefaultHandle handle) {
+        void add(DefaultHandle handle) { // NOTE:htt, 添加DefaultHandle
             handle.lastRecycledId = id;
 
             Link tail = this.tail;
@@ -271,6 +265,16 @@ public abstract class Recyclers<T> {
                 return false;
             }
         }
+
+        // Let Link extend AtomicInteger for intrinsics. The Link itself will be used as writerIndex.
+        @SuppressWarnings("serial")
+        private static final class Link extends AtomicInteger { // NOTE:htt, link链接
+
+            private final DefaultHandle[] elements = new DefaultHandle[LINK_CAPACITY];
+
+            private int readIndex;
+            private Link next; // NOTE:htt, next指针
+        }
     }
 
     static final class Stack<T> {
@@ -280,10 +284,10 @@ public abstract class Recyclers<T> {
         // to scavenge those that can be reused. this permits us to incur minimal thread synchronisation whilst
         // still recycling all items.
         final Recyclers<T> parent;
-        final Thread thread;
-        private DefaultHandle[] elements;
+        final Thread thread; // NOTE:htt, 线程
         private final int maxCapacity;
-        private int size;
+        private DefaultHandle[] elements;
+        private int size; // NOTE:htt, 长度
 
         private volatile WeakOrderQueue head;
         private WeakOrderQueue cursor, prev;
@@ -364,7 +368,7 @@ public abstract class Recyclers<T> {
                     // performing a volatile read to confirm there is no data left to collect.
                     // We never unlink the first queue, as we don't want to synchronize on updating the head.
                     if (cursor.hasFinalData()) {
-                        for (;;) {
+                        for (; ; ) {
                             if (cursor.transfer(this)) {
                                 success = true;
                             } else {
