@@ -7,14 +7,14 @@ import "enum.proto";
 option java_package="com.alipay.sofa.jraft.entity.codec.v2";
 option java_outer_classname = "LogOutter";
 
-message PBLogEntry {
-    required EntryType type = 1;
-    required int64 term = 2;
+message PBLogEntry { // NOTE:htt, pb log条目
+    required EntryType type = 1; // NOTE:htt, 条目类型
+    required int64 term = 2; // NOTE:htt, term信息
     required int64 index = 3;
-    repeated bytes peers = 4;
+    repeated bytes peers = 4; // NOTE:htt, 当前peers信息
     repeated bytes old_peers = 5;
-    required bytes data = 6;
+    required bytes data = 6; // NOTE:htt, 业务数据
     optional int64 checksum = 7;
-    repeated bytes learners = 8;
+    repeated bytes learners = 8; // NOTE:htt, 当前learners信息
     repeated bytes old_learners = 9;
 };

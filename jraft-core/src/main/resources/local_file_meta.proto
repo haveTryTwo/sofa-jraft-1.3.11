@@ -6,13 +6,13 @@ option java_package="com.alipay.sofa.jraft.entity";
 option java_outer_classname = "LocalFileMetaOutter";
 
 
-enum FileSource {
+enum FileSource { // NOTE:htt, 文件源
     FILE_SOURCE_LOCAL = 0;
     FILE_SOURCE_REFERENCE = 1;
 }
 
-message LocalFileMeta {
-    optional bytes user_meta   = 1;
+message LocalFileMeta { // NOTE:htt, 本地文件元信息
+    optional bytes user_meta   = 1; // NOTE:htt, 用户元信息
     optional FileSource source = 2;
     optional string checksum   = 3;
 }

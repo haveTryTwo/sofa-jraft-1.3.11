@@ -10,25 +10,25 @@ option java_package="com.alipay.sofa.jraft.entity";
 option java_outer_classname = "LocalStorageOutter";
 
 
-message ConfigurationPBMeta {
-    repeated string peers = 1;
+message ConfigurationPBMeta { // NOTE:htt, 配置pb元信息
+    repeated string peers = 1; // NOTE:htt, 配置peers列表
     repeated string old_peers = 2;
 };
 
-message LogPBMeta {
+message LogPBMeta { // NOTE:htt, pb源信息
     required int64 first_log_index = 1;
 };
 
-message StablePBMeta {
-    required int64 term = 1;
-    required string votedfor = 2;
+message StablePBMeta { // NOTE:htt, 持久pb元信息
+    required int64 term = 1; // NOTE:htt, term
+    required string votedfor = 2; // NOTE:htt, 主节点信息
 };
 
-message LocalSnapshotPbMeta {
-    message File {
+message LocalSnapshotPbMeta { // NOTE:htt, 本地快照信息
+    message File { // NOTE:htt, 文件信息
         required string name = 1;
         optional LocalFileMeta meta = 2;
     };
-    optional SnapshotMeta meta = 1;
-    repeated File files = 2;
+    optional SnapshotMeta meta = 1; // NOTE:htt, 快照元数据
+    repeated File files = 2; // NOTE:htt, 文件源信息
 }

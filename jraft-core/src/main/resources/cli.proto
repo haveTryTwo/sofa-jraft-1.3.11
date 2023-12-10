@@ -6,101 +6,101 @@ import "rpc.proto";
 option java_package="com.alipay.sofa.jraft.rpc";
 option java_outer_classname = "CliRequests";
 
-message AddPeerRequest {
+message AddPeerRequest { // NOTE:htt, 添加peer请求
     required string group_id = 1;
     required string leader_id = 2;
     required string peer_id = 3;
 }
 
-message AddPeerResponse {
+message AddPeerResponse { // NOTE:htt, 添加peer请求回包
     repeated string old_peers = 1;
     repeated string new_peers = 2;
     optional ErrorResponse errorResponse = 99;
 }
 
-message RemovePeerRequest {
+message RemovePeerRequest { // NOTE:htt, 删除peer请求
     required string group_id = 1;
     required string leader_id = 2;
     required string peer_id = 3;
 }
 
-message RemovePeerResponse {
+message RemovePeerResponse { // NOTE:htt, 删除peer请求回包
     repeated string old_peers = 1;
     repeated string new_peers = 2;
     optional ErrorResponse errorResponse = 99;
 }
 
-message ChangePeersRequest {
+message ChangePeersRequest { // NOTE:htt, 调整peer请求
     required string group_id = 1;
     required string leader_id = 2;
     repeated string new_peers = 3;
 }
 
-message ChangePeersResponse {
+message ChangePeersResponse { // NOTE:htt, 调整peer请求回包
     repeated string old_peers = 1;
     repeated string new_peers = 2;
     optional ErrorResponse errorResponse = 99;
 }
 
-message SnapshotRequest {
+message SnapshotRequest { // NOTE:htt, 快照请求
     required string group_id = 1;
     optional string peer_id = 2;
 };
 
-message ResetPeerRequest {
+message ResetPeerRequest { // NOTE:htt, 重置peer请求
     required string group_id = 1;
     required string peer_id = 2;
     repeated string old_peers = 3;
     repeated string new_peers = 4;
 }
 
-message TransferLeaderRequest {
+message TransferLeaderRequest { // NOTE:htt, 切换leader请求
     required string group_id = 1;
     required string leader_id = 2;
     optional string peer_id = 3;
 }
 
-message GetLeaderRequest {
+message GetLeaderRequest { // NOTE:htt, 获取leader请求
     required string group_id = 1;
     optional string peer_id = 2;
 }
 
-message GetLeaderResponse {
+message GetLeaderResponse { // NOTE:htt, 获取leader请求回包
     required string leader_id = 1;
     optional ErrorResponse errorResponse = 99;
 }
 
-message GetPeersRequest {
+message GetPeersRequest { // NOTE:htt, 获取peers列表请求
     required string group_id = 1;
     optional string leader_id = 2;
     optional bool only_alive = 3 [default = false];
 }
 
-message GetPeersResponse {
+message GetPeersResponse { // NOTE:htt, 获取peers列表请求回包
     repeated string peers = 1;
     repeated string learners = 2;
     optional ErrorResponse errorResponse = 99;
 }
 
-message AddLearnersRequest {
+message AddLearnersRequest { // NOTE:htt, 添加learner请求
     required string group_id = 1;
     required string leader_id = 2;
     repeated string learners = 3;
 }
 
-message RemoveLearnersRequest {
+message RemoveLearnersRequest { // NOTE:htt, 删除learner请求回包
     required string group_id = 1;
     required string leader_id = 2;
     repeated string learners = 3;
 }
 
-message ResetLearnersRequest {
+message ResetLearnersRequest { // NOTE:htt, 重置learn请求
     required string group_id = 1;
     required string leader_id = 2;
     repeated string learners = 3;
 }
 
-message LearnersOpResponse {
+message LearnersOpResponse { // NOTE:htt, learner操作回包
     repeated string old_learners = 1;
     repeated string new_learners = 2;
     optional ErrorResponse errorResponse = 99;

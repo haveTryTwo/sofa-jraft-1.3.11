@@ -8,11 +8,11 @@ option java_package="com.alipay.sofa.jraft.entity";
 option java_outer_classname = "RaftOutter";
 
 
-message EntryMeta {
-    required int64 term = 1;
-    required EntryType type = 2;
-    repeated string peers = 3;
-    optional int64 data_len = 4;
+message EntryMeta { // NOTE:htt, 条目元数据
+    required int64 term = 1; // NOTE:htt, term信息
+    required EntryType type = 2; // NOTE:htt, 条目类型
+    repeated string peers = 3; // NOTE:htt, peers对象
+    optional int64 data_len = 4; // NOTE:htt, 数据长度
     // Don't change field id of `old_peers' in the consideration of backward
     // compatibility
     repeated string old_peers = 5;
@@ -22,9 +22,9 @@ message EntryMeta {
     repeated string old_learners = 8;
 };
 
-message SnapshotMeta {
-    required int64 last_included_index = 1;
-    required int64 last_included_term = 2;
+message SnapshotMeta { // NOTE:htt, 快照元数据
+    required int64 last_included_index = 1; // NOTE:htt, 快照最新的index
+    required int64 last_included_term = 2; // NOTE:htt, 快照最新的term
     repeated string peers = 3;
     repeated string old_peers = 4;
     repeated string learners = 5;
